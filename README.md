@@ -10,11 +10,12 @@ Answered in accompanying email
 
 Solution was built using [cypress.io](https://www.cypress.io/). 
 
-### Installation
+### Running Quick Quote solution 
 
 1. Clone this repository into your local directory
 1. Initialise the directory using `npm init` or ensure you have a **node_modules** folder or **package.json** file in the root of your project
 1. Install cypress via npm:
+
    ```sh
    $ cd /your/project/path`
    $ npm install cypress --save-dev
@@ -22,10 +23,12 @@ Solution was built using [cypress.io](https://www.cypress.io/).
    *Note: For other installation methods like yarn or direct download, click [here](https://docs.cypress.io/guides/getting-started/installing-cypress.html#Installing).* 
 1. If you used npm to install, Cypress has now been installed to your *./node_modules* directory, with its binary executable accessible from *./node_modules/.bin*.
    Open Cypress Test Runner the long way using the full path:
+
    ```sh
    $ ./node_modules/.bin/cypress open
    ```
    Or with the shortcut using npm bin
+   
    ```sh
    $ $(npm bin)/cypress open
    ```
