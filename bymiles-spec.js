@@ -21,7 +21,6 @@ describe('Generate ByMiles Quick Quote', () => {
           .click()
 
         // 4. Select '12' from No claims dropdown 
-        // cy.get('[name="ncd-wrapper"] > .Select > .Select-control')
         cy.get('div[name="ncd-wrapper"] .Select-control')
           .click()
         cy.get('[id^="react-select-"]')
